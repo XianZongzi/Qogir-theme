@@ -386,7 +386,7 @@ popover.background.places-menu {
 
   .bottom & {
     &.dock-mode {
-      border-radius: 5px 5px 0 0;
+      border-radius: 0 0 0 0;
     }
   }
 
@@ -765,7 +765,7 @@ calendar.raven-calendar {
   background-color: transparent;
 
   &:selected {
-    border-radius: 3px;
+    border-radius: 0;
     background-color: $selected_bg_color;
   }
 }
@@ -849,7 +849,7 @@ box.vertical > stack > box.vertical {
 
       // sub-list rows grouping
       list {
-        border-radius: 2px;
+        border-radius: 0;
         border-top: 1px solid $borders_color;
         border-bottom: 1px solid $borders_color;
 

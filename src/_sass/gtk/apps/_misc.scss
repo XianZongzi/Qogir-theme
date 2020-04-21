@@ -59,7 +59,7 @@
   // Rename entry
   .nemo-window-pane widget.entry {
     border: 1px solid;
-    border-radius: 3px;
+    border-radius: 0;
 
     @include entry(focus);
 
@@ -119,16 +119,16 @@
     border-radius: 0;
 
     &.bottom.left {
-      border-top-right-radius: 2px;
+      border-top-right-radius: 0;
     }
 
     &.bottom.right {
-      border-top-left-radius: 2px;
+      border-top-left-radius: 0;
     }
 
     button {
       border: none;
-      border-radius: 3px;
+      border-radius: 0;
       min-height: 16px;
       min-width: 16px;
       -gtk-icon-shadow: none;
@@ -173,7 +173,7 @@ window.background:not(.csd) {
     > entry,
     .entry { // Set for linked entrys
       // min-height: 26px;
-      border-radius: 2px;
+      border-radius: 0;
       color: $text_color;
       background-image: image($base_color);
       border: 1px solid $borders_color;
@@ -198,7 +198,7 @@ window.background:not(.csd) {
         > button { // enforce fallback buttons inside the HTML pages
           color: $text_color;
           border: 1px solid $borders_color;
-          border-radius: 2px;
+          border-radius: 0;
 
           &:active, &:checked {
             border: 1px solid $firefox_border;
@@ -330,7 +330,7 @@ $chrome_menu_fg_color: $fg_color;
     &.close, &.maximize, &.minimize, &.restore {
       min-width: 30px;
       min-height: 30px;
-      border-radius: 3px;
+      border-radius: 0;
     }
 
     // Load png assets for each button, Fix the Chrome window restore button bug

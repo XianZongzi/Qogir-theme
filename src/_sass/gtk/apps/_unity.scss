@@ -25,7 +25,7 @@ UnityDecoration {
   .top {
     border: 1px solid if($variant == 'dark', darken($header_bg, 7%), transparentize(black, 0.9));
     border-bottom-width: 0;
-    border-radius: 4px 4px 0 0;
+    border-radius: 0 0 0 0;
     padding: 1px 6px 0 6px;
 
     background-image: _solid(opacify($header_bg, 1));
@@ -69,7 +69,7 @@ UnityPanelWidget,
   background-image: none;
   background-color: transparentize(black, 0.6);
   border-color: transparentize(white, 0.2);
-  border-radius: 4px;
+  border-radius: 0;
   padding: 1px;
   color: white;
 }
