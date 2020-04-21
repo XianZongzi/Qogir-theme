@@ -52,7 +52,3 @@ sudo ./install.sh -g -c dark -t standard  (Install standard dark gdm theme)
 
 ## Screenshots
 ![1](https://github.com/XianZongzi/XianZongzi-theme/blob/images/screenshots/screenshot01.png?raw=true)
-![2](https://github.com/XianZongzi/XianZongzi-theme/blob/images/screenshots/screenshot02.png?raw=true)
-![3](https://github.com/XianZongzi/XianZongzi-theme/blob/images/screenshots/screenshot03.png?raw=true)
-![4](https://github.com/XianZongzi/XianZongzi-theme/blob/images/screenshots/screenshot04.png?raw=true)
-![5](https://github.com/XianZongzi/XianZongzi-theme/blob/images/screenshots/screenshot05.png?raw=true)
