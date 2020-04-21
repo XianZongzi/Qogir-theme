@@ -24,21 +24,6 @@
 ./install.sh  # 安装所有主题
 ```
 
-```sh
-./install.sh -i  (Install themes with nautilus background image)
-```
-
-```sh
-sudo ./install.sh -g -c dark -t standard  (Install standard dark gdm theme)
-```
-
-## Nautilus logos
-```sh
-./install.sh -l [LOGO NAME...] (Install themes with selected nautilus logo)
-```
-
-![logo](https://github.com/XianZongzi/XianZongzi-theme/blob/images/logos.png?raw=true)
-
 ## Firefox theme
 [Intall Firefox theme](src/firefox)
 
