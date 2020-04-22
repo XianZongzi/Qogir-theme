@@ -259,7 +259,7 @@ $disk_space_free: darken($bg_color, 3%);
 
   button {
     border: none;
-    border-radius: 100px;
+    border-radius: 0;
     min-height: 0;
     min-width: 0;
     padding: 0;
@@ -1034,8 +1034,8 @@ popover.background:not(.emoji-picker) > box.vertical > stack > box.vertical {
         min-height: 16px;
         padding: 4px; // Same as of image.sidebar-icon
         margin: 0 6px;
-        border-radius: 100px;
-        -gtk-outline-radius: 100px;
+        border-radius: 0;
+        -gtk-outline-radius: 0;
       }
     }
   }

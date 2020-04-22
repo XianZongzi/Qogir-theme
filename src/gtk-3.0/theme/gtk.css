@@ -2740,6 +2740,7 @@ popover.background, .csd popover.background,
 popover.background.menu {
   border-radius: 0;
   border: 1px solid rgba(0, 0, 0, 0.15);
+  border: none;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -3067,7 +3068,7 @@ scrollbar slider {
   min-height: 8px;
   margin: -1px;
   border: 4px solid transparent;
-  border-radius: 8px;
+  border-radius: 0;
   background-clip: padding-box;
   background-color: #a8abae;
 }
@@ -3578,13 +3579,13 @@ scale.fine-tune slider {
 scale.fine-tune fill,
 scale.fine-tune highlight,
 scale.fine-tune trough {
-  border-radius: 5px;
-  -gtk-outline-radius: 7px;
+  border-radius: 0;
+  -gtk-outline-radius: 0;
 }
 
 scale trough {
   outline-offset: 2px;
-  -gtk-outline-radius: 4.5px;
+  -gtk-outline-radius: 0;
   border-radius: 0;
   background-color: rgba(0, 0, 0, 0.15);
 }
@@ -4048,7 +4049,7 @@ iconview:selected:hover, row.activatable:selected.has-open-popup, row.activatabl
   color: #e6edf0;
   background-color: alpha(#282d33,0.9);
   background-clip: border-box;
-  border-radius: 0 0 2px 2px;
+  border-radius: 0 0 0 0;
   border-width: 0 1px 1px 1px;
   border-style: solid;
   border-color: rgba(98, 111, 125, 0.55);
@@ -5188,7 +5189,7 @@ window.thunar notebook scrolledwindow.frame.standard-view, .nemo-window .nemo-wi
 
 .nautilus-window .floating-bar button {
   border: none;
-  border-radius: 100px;
+  border-radius: 0;
   min-height: 0;
   min-width: 0;
   padding: 0;
@@ -5897,8 +5898,8 @@ popover.background:not(.emoji-picker) > box.vertical > stack > box.vertical scro
   min-height: 16px;
   padding: 4px;
   margin: 0 6px;
-  border-radius: 100px;
-  -gtk-outline-radius: 100px;
+  border-radius: 0;
+  -gtk-outline-radius: 0;
 }
 
 popover.background > scrolledwindow > viewport.frame > list > row.activatable {
@@ -6419,7 +6420,7 @@ window.background > grid.horizontal > grid.horizontal {
 window.background > grid.horizontal > grid.horizontal > button.flat.small-button {
   color: rgba(246, 250, 255, 0.8);
   border: none;
-  border-radius: 50px;
+  border-radius: 0;
 }
 
 window.background > grid.horizontal > grid.horizontal > button.flat.small-button:hover {
@@ -6491,8 +6492,8 @@ widget > box.terminal-titlebar > button.image-button, widget > box.terminal-titl
   padding: 0;
   min-height: 24px;
   min-width: 24px;
-  border-radius: 100px;
-  -gtk-outline-radius: 100px;
+  border-radius: 0;
+  -gtk-outline-radius: 0;
 }
 
 list.tilix-session-sidebar {
@@ -6503,8 +6504,8 @@ list.tilix-session-sidebar button.tilix-sidebar-close-button {
   min-height: 20px;
   min-width: 20px;
   padding: 0;
-  border-radius: 100px;
-  -gtk-outline-radius: 100px;
+  border-radius: 0;
+  -gtk-outline-radius: 0;
   background-color: #ee4046;
 }
 
@@ -6632,9 +6633,9 @@ UnityDecoration {
   -UnityDecoration-shadow-offset-x: 0px;
   -UnityDecoration-shadow-offset-y: 3px;
   -UnityDecoration-active-shadow-color: rgba(0, 0, 0, 0.2);
-  -UnityDecoration-active-shadow-radius: 12px;
+  -UnityDecoration-active-shadow-radius: 0;
   -UnityDecoration-inactive-shadow-color: rgba(0, 0, 0, 0.07);
-  -UnityDecoration-inactive-shadow-radius: 7px;
+  -UnityDecoration-inactive-shadow-radius: 0;
   -UnityDecoration-glow-size: 10px;
   -UnityDecoration-glow-color: #1096d4;
   -UnityDecoration-title-indent: 10px;
@@ -6724,7 +6725,7 @@ UnityPanelWidget:backdrop,
   background-image: none;
   background-color: rgba(0, 0, 0, 0.3);
   border-color: rgba(255, 255, 255, 0.4);
-  border-radius: 10px;
+  border-radius: 0;
   padding: 7px;
   color: white;
   text-shadow: none;
@@ -7980,8 +7981,8 @@ button.raven-trigger:hover, button.raven-trigger:active, button.raven-trigger:ch
 }
 
 .raven .raven-header:not(.top) button.image-button {
-  border-radius: 100px;
-  -gtk-outline-radius: 100px;
+  border-radius: 0;
+  -gtk-outline-radius: 0;
 }
 
 .raven .raven-header:not(.top) button.flat:active, .raven .raven-header:not(.top) button.flat:checked {
@@ -8480,7 +8481,7 @@ box.vertical > stack > box.vertical > .raven-background > viewport.frame > list 
 }
 
 .budgie-panel box.titlebar > button.image-button.titlebutton image {
-  border-radius: 100px;
+  border-radius: 0;
   background-size: 20px 20px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -9240,7 +9241,7 @@ GraniteWidgetsStaticNotebook .frame {
 }
 
 .help_button {
-  border-radius: 100px;
+  border-radius: 100%;
   padding: 3px 9px;
 }
 
@@ -9309,7 +9310,7 @@ toolbar.bottom-toolbar button, .bottom-toolbar.inline-toolbar button {
   background-image: none;
   background-color: #1096d4;
   color: #fbfeff;
-  border-radius: 10px;
+  border-radius: 0;
   padding: 0 6px;
   margin: 0 3px;
   border-width: 0;
@@ -9676,7 +9677,7 @@ window.background.csd > headerbar.titlebar > hdyleaflet > headerbar:first-child 
   border: none;
   min-height: 30px;
   min-width: 30px;
-  border-radius: 1000px;
+  border-radius: 100%;
   color: transparent;
   background-color: transparent;
   background-image: -gtk-scaled(url("assets/logo.svg"), url("assets/logo@2.svg"));
@@ -9926,8 +9927,8 @@ list.gedit-document-panel row button {
   min-height: 22px;
   padding: 0;
   margin: 0 8px;
-  border-radius: 100px;
-  -gtk-outline-radius: 100px;
+  border-radius: 100%;
+  -gtk-outline-radius: 100%;
   border: none;
   background: none;
 }

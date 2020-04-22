@@ -2025,6 +2025,7 @@ popover.background {
   &, .csd &, &.menu {
     border-radius: 0;
     border: 1px solid $borders_color;
+    border: none;
     box-shadow: 0 2px 8px 0 if($variant=='light', rgba(black, 0.1), rgba(black, 0.15));
   }
 
@@ -2286,7 +2287,7 @@ scrollbar {
     min-height: $cont_padding;
     margin: -1px;
     border: 4px solid transparent;
-    border-radius: 8px;
+    border-radius: 0;
     background-clip: padding-box;
     background-color: mix($fg_color, $bg_color, 40%);
 
@@ -2516,8 +2517,8 @@ scale {
     fill,
     highlight,
     trough {
-      border-radius: 5px;
-      -gtk-outline-radius: 7px;
+      border-radius: 0;
+      -gtk-outline-radius: 0;
     }
   }
 
@@ -2526,7 +2527,7 @@ scale {
     $_scale_trough_bg: $borders_color;
 
     outline-offset: 2px;
-    -gtk-outline-radius: 4.5px;
+    -gtk-outline-radius: 0;
 
     border-radius: 0;
     background-color: $_scale_trough_bg;
@@ -2914,7 +2915,7 @@ row {
   color: $osd_fg_color;
   background-color: gtkalpha($osd_bg_color, 0.9);
   background-clip: border-box;
-  border-radius: 0 0 2px 2px;
+  border-radius: 0 0 0 0;
   border-width: 0 1px 1px 1px;
   border-style: solid;
   border-color: $osd_button_border;
