@@ -779,6 +779,11 @@ button.circular-button label, .app-notification button.flat label, button.close 
   color: rgba(251, 254, 255, 0.8);
 }
 
+.inline-toolbar toolbutton > button > image {
+  min-width: 32px;
+  min-height: 32px;
+}
+
 toolbar.inline-toolbar toolbutton:first-child > button.flat, .inline-toolbar toolbutton:first-child > button.flat {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;

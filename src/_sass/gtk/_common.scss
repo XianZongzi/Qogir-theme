@@ -610,6 +610,10 @@ button {
   &:disabled { @include button(insensitive); }
   &:disabled:active,
   &:disabled:checked { @include button(insensitive-active); }
+  & > image {
+    min-width: 32px;
+    min-height: 32px;
+  }
 }
 
 // More inline toolbar buttons
